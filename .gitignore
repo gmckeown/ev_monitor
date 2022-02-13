@@ -1,0 +1,9 @@
+# Project-specific exclusions
+ev_monitor.ini
+
+# Python-related exclusions
+__pycache__/
+*.py[cod]
+.venv/
+.env/
+venv/

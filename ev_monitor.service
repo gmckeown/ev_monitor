@@ -1,0 +1,11 @@
+[Unit]
+Description=EV Charger Network Status Monitor
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/bin/python3 /opt/ev_monitor/ev_monitor.py
+WorkingDirectory=/opt/ev_monitor
+
+[Install]
+WantedBy=multi-user.target
